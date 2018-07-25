@@ -1,0 +1,6 @@
+You need to ssh into pdockerdmzcit1.services.brown.edu  (note: for me this is: ssh -Y achampag@pdockerdmzcit1.services.brown.edu
+To open up docker container with mongo executable: docker run -it --rm --network=disa mongo bash
+To connect to dev database: mongo -u cds -p aLk112FaK358! dmongodbhcit.services.brown.edu/cds-slavetrade-development
+Run "show collections" to view all the tables
+To view the existing users and their rules run "db.users.find(). pretty ()"
+To add a user run "db.users.insert({username:"xyz@abc.com", role: "admin"})
