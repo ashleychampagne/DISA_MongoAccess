@@ -1,12 +1,6 @@
-
-1. "ssh -Y brown-username@pdockerdmzcit1.services.brown.edu" (note: for me this is: ssh -Y achampag@pdockerdmzcit1.services.brown.edu)
-
-2. "docker ps" to check if the disa containers are running. The containers associated with our project are disa-api, disa-application and proxy_nginx_1
-
-3. "docker restart disa-api"
-
-4. "docker restart disa-application"
-
-5. "docker restart proxy_nginx_1"
-
-6. "docker ps" to check if the containers are actually up and running again
+"ssh -Y brown-username@pdockerdmzcit1.services.brown.edu" (note: for me this is: ssh -Y achampag@pdockerdmzcit1.services.brown.edu)
+"docker ps" to check if the disa containers are running. The containers associated with our project are disa-api, disa-application and proxy_nginx_1
+"docker restart disa-api"
+"docker restart disa-application"
+"docker restart proxy_nginx_1"
+"docker ps" to check if the containers are actually up and running again
