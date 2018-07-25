@@ -10,5 +10,3 @@
 5. "docker restart proxy_nginx_1"
 
 6. "docker ps" to check if the containers are actually up and running again
-
-We get the 502 error when proxy_nginx has been stopped but I just restart all the containers just to be sure. 
